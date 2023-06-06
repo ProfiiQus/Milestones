@@ -1,0 +1,8 @@
+epic-miner:
+  levels:
+    1:
+      requirements:
+        - "MINE:STONE:1000"
+    2:
+      requirements:
+        - "MINE:NETHERRACK:1000"

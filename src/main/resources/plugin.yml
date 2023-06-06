@@ -1,0 +1,4 @@
+name: Milestones
+version: '${project.version}'
+main: com.fesenpav.milestones.Milestones
+api-version: 1.19
