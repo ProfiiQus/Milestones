@@ -1,7 +1,6 @@
 package com.fesenpav.milestones.model.configuration.requirement
 
-/**
- * Requirement type implementation for block mining.
- */
-class BlockMineRequirementType(identifier: String) : RequirementType(identifier) {
+import org.bukkit.configuration.ConfigurationSection
+
+class BlockMineRequirement(configuration: ConfigurationSection) : Requirement(configuration) {
 }

@@ -1,4 +1,6 @@
 package com.fesenpav.milestones.exception
 
-class MilestonesException {
-}
+/**
+ * A Generic [Exception] class that occurs when an exception occurs within the plugin.
+ */
+class MilestonesException(message: String): Exception(message) {}
